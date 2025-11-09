@@ -1,59 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page | WDD 130</title>
+  <title>WDD 130 | MBUYI MBUYI Dieudonné</title>
 
-  <!-- Meta tags -->
-  <meta name="description"
-    content="Home page of MBUYI MBUYI Dieudonné for the WDD 130 Web Fundamentals course at BYU-Idaho. Learn more about my projects and web development journey.">
+  <!-- Required meta tags from the assignment -->
+  <meta name="description" content="Home page of MBUYI MBUYI Dieudonné for WDD 130 Web Fundamentals at BYU-Idaho. About Me and Democratic Republic of the Congo info.">
   <meta name="author" content="MBUYI MBUYI Dieudonné">
 
-  <!-- External CSS -->
+  <!-- Link to CSS -->
   <link rel="stylesheet" href="styles/styles.css">
 </head>
-
 <body>
+
+  <!-- Header with nav (audit requires nav inside header with exactly two anchors) -->
   <header>
-    <h1>Welcome to My Home Page</h1>
     <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">W1</a></li>
-        <li><a href="#">W2</a></li>
-        <li><a href="#">W3</a></li>
-        <li><a href="#">W4</a></li>
-        <li><a href="#">W5</a></li>
-        <li><a href="#">W6</a></li>
-        <li><a href="#">W7</a></li>
-      </ul>
+      <a href="#">Home</a>
+      <a href="wwr/">Rafting Site</a>
     </nav>
   </header>
 
+  <!-- Main content -->
   <main>
-    <h2>About Me</h2>
-    <img src="image/profile.jpg" alt="Profile photo of MBUYI MBUYI Dieudonné">
+    <h1>WDD 130</h1>
+
+    <!-- About Me heading (left-aligned per your request) -->
+    <h2 class="about-title">About Me</h2>
+
+    <!-- Profile image (main img selector will target this) -->
+    <img src="images/profile.jpg" alt="Profile photo of MBUYI MBUYI Dieudonné" class="profile-img">
+
+    <!-- Short paragraph about the student -->
     <p>
-      Hello! My name is <strong>MBUYI MBUYI Dieudonné</strong>. I am a student of <em>Web Fundamentals (WDD 130)</em> at
-      <strong>Brigham Young University–Idaho</strong>.
-      This page is part of my journey to learn the foundations of web design and development.
+      Hello — I am <strong>MBUYI MBUYI Dieudonné</strong>, a student in WDD 130 Web Fundamentals at BYU–Idaho.
+      I am from the Democratic Republic of the Congo (RDC). I am learning HTML, CSS, and basic web development.
     </p>
   </main>
 
+  <!-- Aside must come after main and before footer -->
   <aside>
     <h2>Democratic Republic of the Congo</h2>
-    <img src="image/drc.jpg" alt="landscape of the Democratic Republic of the Congo">
+    <img src="images/rdc.jpg" alt="Flag or landscape of the Democratic Republic of the Congo" class="rdc-img">
     <p>
-      The Democratic Republic of the Congo (RDC) is located in the heart of Africa.
-      It is known for its vast natural resources, rich culture, and the Congo River, the second longest river in Africa.
+      The Democratic Republic of the Congo (RDC) is a large country in Central Africa known for its rich culture,
+      natural resources and the Congo River. Mbuji-Mayi is a major city located in the region.
     </p>
   </aside>
 
+  <!-- Footer with copyright -->
   <footer>
-    <p>&copy; 2025 | MBUYI MBUYI Dieudonné | WDD 130 | BYU-Idaho</p>
+    <p>© 2025 | MBUYI MBUYI Dieudonné | Brigham Young University–Idaho | All rights reserved</p>
   </footer>
-</body>
 
+</body>
 </html>
