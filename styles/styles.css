@@ -58,7 +58,7 @@ main {
 main h1 {
   color: #002e5d;
   font-size: 1.6rem;
-  text-align: center;
+  text-align: left;
   /* page title centered */
   margin-bottom: 12px;
 }
